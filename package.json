@@ -1,0 +1,12 @@
+{
+    "name": "eastube",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "4.17.1"
+    },
+    "author": "A7mooz",
+    "license": "ISC"
+}
