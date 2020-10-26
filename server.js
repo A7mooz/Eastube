@@ -4,12 +4,12 @@ var app = express();
 // Set port
 var port = process.env.PORT || 8080
 
-app.use(express.static(__dirname + public));
+app.use(express.static(public + __dirname));
 
 // Routes
 
 app.get("/", function(req, res) {
-    res.render("public/index")
+    res.render("index")
 })
 
 app.listen(port, function() {
